@@ -29,6 +29,12 @@
                 android:summary="@string/changelog_xenonhd_summary"
                 android:fragment="com.android.settings.xenonhd.Changelog" />
 
+        <!-- Download Center -->
+        <PreferenceScreen
+                android:key="about_liquid"
+                android:fragment="com.android.settings.liquid.LiquidAbout"
+                android:title="@string/liquid_menu_about" />
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
