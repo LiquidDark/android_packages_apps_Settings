@@ -16,8 +16,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<<<<<<< HEAD:res/values-ml-rIN/cm_plurals.xml
   <plurals name="app_ops_count">
     <item quantity="one">ഒരിക്കല്</item>
     <item quantity="other">%d പ്രാവശ്യം</item>
   </plurals>
+=======
+
+<!-- About phone screen, Liquid version -->
+    <string name="liquid_version_title">Liquid version</string>
+    <string name="liquid_version_default">Unknown</string>
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">Unknown</string>
+
+    <!-- Download Center -->
+    <string name="liquid_menu_about">Download Center</string>
+
+>>>>>>> ae3fe8b... Add Download Center 2/2:res/values/liquid_strings.xml
 </resources>
