@@ -22,6 +22,9 @@
     <string name="changelog_xenonhd_title">Changelog</string>
     <string name="changelog_xenonhd_error">Unable to load changelog</string>
     <string name="changelog_xenonhd_summary">Check changes in current build</string>
+    
+    <!-- Download Center -->
+    <string name="liquid_menu_about">Download Center</string>
 
     <!-- Density category -->
     <string name="density_category">Density options</string>
