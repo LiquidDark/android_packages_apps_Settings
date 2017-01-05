@@ -37,10 +37,6 @@ public class LiquidAbout extends SettingsPreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object objValue) {
     ContentResolver resolver = getActivity().getContentResolver();
 	return false;
-	}
-
-    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     @Override
