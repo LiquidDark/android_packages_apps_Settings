@@ -15,10 +15,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, Liquid version -->
-    <string name="xenonhd_version">Liquid version</string>
-    <string name="xenonhd_version_default">Unknown</string>
-    <string name="xenonhd_maintainer">Maintainer</string>
-    <string name="xenonhd_maintainer_default">Unknown</string>
+    <string name="liquid_version">Liquid version</string>
+    <string name="liquid_version_default">Unknown</string>
 
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">Changelog</string>

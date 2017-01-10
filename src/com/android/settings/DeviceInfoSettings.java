@@ -70,12 +70,11 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_DEVICE_FEEDBACK = "device_feedback";
     private static final String KEY_MBN_VERSION = "mbn_version";
     private static final String PROPERTY_MBN_VERSION = "persist.mbn.version";
+    private static final String KEY_LIQUID_VERSION = "liquid_version";
     private static final String KEY_QGP_VERSION = "qgp_version";
     private static final String PROPERTY_QGP_VERSION = "persist.qgp.version";
     private static final String MBN_VERSION_PATH = "/persist/speccfg/mbnversion";
     private static final String QGP_VERSION_PATH = "/persist/speccfg/qgpversion";
-    private static final String KEY_XENONHD_VERSION = "xenonhd_version";
-    private static final String KEY_XENONHD_MAINTAINER = "xenonhd_maintainer";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
@@ -143,16 +142,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setValueSummary(KEY_MBN_VERSION, PROPERTY_MBN_VERSION);
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_MBN_VERSION,
                 PROPERTY_MBN_VERSION);
-        setValueSummary(KEY_XENONHD_VERSION, "ro.xenonhd.version");
-        findPreference(KEY_XENONHD_VERSION).setEnabled(true);
-        setValueSummary(KEY_XENONHD_MAINTAINER, "ro.xenonhd.maintainer");
-        findPreference(KEY_XENONHD_MAINTAINER).setEnabled(true);
-
-        String buildtype = SystemProperties.get("ro.xenonhd.version","Unofficial");
-            if (buildtype.equalsIgnoreCase("Unofficial")) {
-                removePreference(KEY_XENONHD_MAINTAINER);
-        }
-
+        setValueSummary(KEY_LIQUID_VERSION, "ro.liquid.version");
+        findPreference(KEY_LIQUID_VERSION).setEnabled(true);
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
 
         if (!SELinux.isSELinuxEnabled()) {
@@ -243,7 +234,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 }
 
                 Intent intent = new Intent(Intent.ACTION_MAIN);
-                intent.putExtra("is_xenonhd", preference.getKey().equals(KEY_XENONHD_VERSION));
+                intent.putExtra("is_liquid", preference.getKey().equals(KEY_LIQUID_VERSION));
                 intent.setClassName("android",
                         com.android.internal.app.PlatLogoActivity.class.getName());
                 try {
