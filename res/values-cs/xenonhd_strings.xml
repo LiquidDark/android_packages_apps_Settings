@@ -13,9 +13,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">Verze XenonHD</string>
-  <string name="xenonhd_version_default">Neznámá</string>
+  <!-- About phone screen, Liquid version -->
+  <string name="liquid_version">Verze Liquid</string>
+  <string name="liquid_version_default">Neznámá</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Protokol změn</string>
   <string name="changelog_xenonhd_error">Chyba při načítání seznamu změn</string>

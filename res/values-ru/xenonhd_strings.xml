@@ -13,18 +13,15 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">Версия XenonHD</string>
-  <string name="xenonhd_version_default">Неизвестно</string>
+  <!-- About phone screen, Liquid version -->
+  <string name="liquid_version">Версия Liquid</string>
+  <string name="liquid_version_default">Неизвестно</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Список изменений</string>
   <string name="changelog_xenonhd_error">Невозможно загрузить список изменений</string>
   <string name="changelog_xenonhd_summary">Посмотрите изменения в текущей сборке</string>
   <!-- Density category -->
   <string name="density_category">Параметры плотности</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">Обновления XenonHD</string>
-  <string name="xenonota_summary">Проверить наличие обновлений прошивки</string>
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Не нужно, настройки для разработчиков включены по умолчанию.</string>
   <!-- Phone info shortcut -->
