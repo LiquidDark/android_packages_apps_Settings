@@ -13,8 +13,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">XenonHD Version</string>
+  <!-- About phone screen, Liquid version -->
+  <string name="xenonhd_version">Liquid Version</string>
   <string name="xenonhd_version_default">Unbekannt</string>
   <string name="xenonhd_maintainer">Entwickler</string>
   <string name="xenonhd_maintainer_default">Unbekannt</string>
@@ -24,9 +24,6 @@
   <string name="changelog_xenonhd_summary">Drücke hier, um die Änderungen des aktuellen Builds zu sehen</string>
   <!-- Density category -->
   <string name="density_category">Bildschirmauflösung</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonHD-Updates</string>
-  <string name="xenonota_summary">ROM-Updates suchen</string>
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Nicht benötigt, da die Entwickleroptionen standardmäßig aktiviert sind.</string>
   <!-- Phone info shortcut -->

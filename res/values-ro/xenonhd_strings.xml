@@ -13,16 +13,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">Versiune XenonHD</string>
-  <string name="xenonhd_version_default">Necunoscut</string>
-  <string name="xenonhd_maintainer">Sustinator</string>
-  <string name="xenonhd_maintainer_default">Necunoscut</string>
+  <!-- About phone screen, Liquid version -->
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Istoricul schimbărilor</string>
   <string name="changelog_xenonhd_error">Nu am putut încărca jurnalul cu schimbări</string>
   <!-- Density category -->
-  <!-- XenonOTA -->
   <!-- Dev Options Enabled by Default -->
   <!-- Phone info shortcut -->
   <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->

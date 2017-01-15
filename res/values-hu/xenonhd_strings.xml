@@ -13,20 +13,15 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">XenonHD verzió</string>
-  <string name="xenonhd_version_default">Ismeretlen</string>
-  <string name="xenonhd_maintainer">Karbantartó</string>
-  <string name="xenonhd_maintainer_default">Ismeretlen</string>
+  <!-- About phone screen, Liquid version -->
+  <string name="liquid_version">Liquid verzió</string>
+  <string name="liquid_version_default">Ismeretlen</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Változásnapló</string>
   <string name="changelog_xenonhd_error">Nem lehet betölteni a változások listáját</string>
   <string name="changelog_xenonhd_summary">Legutolsó változások ellenőrzése</string>
   <!-- Density category -->
   <string name="density_category">Sűrűségi beállítások</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonHD frissítések</string>
-  <string name="xenonota_summary">ROM frissítések ellenőrzése</string>
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Nem szükséges, a fejlesztői beállítások engedélyezve vannak</string>
   <!-- Phone info shortcut -->

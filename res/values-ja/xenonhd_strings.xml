@@ -13,17 +13,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- About phone screen, XenonHD version -->
-  <string name="xenonhd_version">XenonHDバージョン</string>
-  <string name="xenonhd_version_default">不明</string>
-  <string name="xenonhd_maintainer">メンテナ</string>
-  <string name="xenonhd_maintainer_default">不明</string>
+  <!-- About phone screen, Liquid version -->
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">更新履歴</string>
   <string name="changelog_xenonhd_error">更新履歴を読み込めませんでした</string>
   <!-- Density category -->
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonHDの更新</string>
   <!-- Dev Options Enabled by Default -->
   <!-- Phone info shortcut -->
   <string name="device_info_title">携帯電話情報</string>
