@@ -21,6 +21,18 @@
         android:action="android.intent.action.VIEW"
         android:data="https://goo.gl/OCIKRp" />
 </PreferenceScreen>
+     
+<PreferenceScreen android:title="LiquidDark Builds by nitin1438 (Nexus4)">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://www.androidfilehost.com/?w=files&flid=146427" />
+</PreferenceScreen>
+     
+ <PreferenceScreen android:title="LiquidDark Builds by nitin1438 (Nexus6)">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://www.androidfilehost.com/?w=files&flid=146076" />
+</PreferenceScreen>    
 
 <PreferenceScreen android:title="The Open GApps Project">
     <intent
