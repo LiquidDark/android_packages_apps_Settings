@@ -16,7 +16,7 @@
     android:title="About Liquid"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
      
-<PreferenceScreen android:title="LiquidDark Builds by nitin1438 (Nexus4)">
+<PreferenceScreen android:title="LiquidDark Builds by nitin1438 (Nexus 4)">
     <intent
         android:action="android.intent.action.VIEW"
         android:data="https://goo.gl/fMdiCF" />
@@ -34,7 +34,7 @@
         android:data="https://goo.gl/up0wyc" />
 </PreferenceScreen>     
      
-<PreferenceScreen android:title="LiquidDark Builds by nitin1438 (Nexus6)">
+<PreferenceScreen android:title="LiquidDark Builds by nitin1438 (Nexus 6)">
     <intent
         android:action="android.intent.action.VIEW"
         android:data="https://goo.gl/eWaQRB" />
