@@ -212,4 +212,9 @@
     <string name="dashboard_columns_portrait_title">Columns (portrait)</string>
     <string name="dashboard_columns_landscape_title">Columns (landscape)</string>
 
+    <!-- Emergency button -->
+    <string name="emergency_button_title">Emergency button</string>
+    <string name="emergency_button_summary_on">Emergency button shown on the lockscreen</string>
+    <string name="emergency_button_summary_off">Emergency button hidden on the lockscreen</string>
+
 </resources>
