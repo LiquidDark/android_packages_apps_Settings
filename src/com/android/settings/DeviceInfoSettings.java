@@ -220,7 +220,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference.getKey().equals(KEY_FIRMWARE_VERSION)
-                || preference.getKey().equals(KEY_XENONHD_VERSION)) {
+                || preference.getKey().equals(KEY_LIQUID_VERSION)) {
             System.arraycopy(mHits, 1, mHits, 0, mHits.length-1);
             mHits[mHits.length-1] = SystemClock.uptimeMillis();
             if (mHits[0] >= (SystemClock.uptimeMillis()-500)) {
