@@ -16,41 +16,47 @@
     android:title="About Liquid"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
      
-<PreferenceScreen android:title="LiquidDark Builds by nitin1438 (Nexus 4)">
+<PreferenceScreen android:title="Download Builds by nitin1438 (Nexus 4)">
     <intent
         android:action="android.intent.action.VIEW"
         android:data="https://goo.gl/fMdiCF" />
 </PreferenceScreen>
 
-<PreferenceScreen android:title="LiquidDark Builds (Nexus 5) ">
+<PreferenceScreen android:title="Download Builds (Nexus 5) ">
     <intent
         android:action="android.intent.action.VIEW"
         android:data="https://goo.gl/XywmiD" />
 </PreferenceScreen>
      
-<PreferenceScreen android:title="LiquidDark Builds (Nexus 5X) ">
+<PreferenceScreen android:title="Download Builds (Nexus 5X) ">
     <intent
         android:action="android.intent.action.VIEW"
         android:data="https://goo.gl/up0wyc" />
 </PreferenceScreen>     
      
-<PreferenceScreen android:title="LiquidDark Builds by nitin1438 (Nexus 6)">
+<PreferenceScreen android:title="Download Builds by nitin1438 (Nexus 6)">
     <intent
         android:action="android.intent.action.VIEW"
         android:data="https://goo.gl/eWaQRB" />
 </PreferenceScreen>
      
-<PreferenceScreen android:title="LiquidDark Builds (Nexus 6P) ">
+<PreferenceScreen android:title="Download Builds (Nexus 6P) ">
     <intent
         android:action="android.intent.action.VIEW"
         android:data="https://goo.gl/ZELAOl" />
 </PreferenceScreen>
      
-<PreferenceScreen android:title="LiquidDark Builds (Nexus 7) ">
+<PreferenceScreen android:title="Download Builds (Nexus 7) ">
     <intent
         android:action="android.intent.action.VIEW"
         android:data="https://goo.gl/7YS6gG" />
-</PreferenceScreen>     
+</PreferenceScreen>
+
+<PreferenceScreen android:title="Download Builds (Moto G4 Plus) ">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="https://goo.gl/NSe3p4" />
+</PreferenceScreen>      
 
 <PreferenceScreen android:title="The Open GApps Project">
     <intent
