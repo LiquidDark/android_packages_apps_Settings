@@ -55,7 +55,7 @@
 <PreferenceScreen android:title="Download Builds (Moto G4 Plus) ">
     <intent
         android:action="android.intent.action.VIEW"
-        android:data="https://goo.gl/NSe3p4" />
+        android:data="https://goo.gl/8vEsK9" />
 </PreferenceScreen>      
 
 <PreferenceScreen android:title="The Open GApps Project">
