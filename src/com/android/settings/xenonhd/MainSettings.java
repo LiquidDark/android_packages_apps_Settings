@@ -215,12 +215,12 @@ public class MainSettings extends SettingsPreferenceFragment implements
      ContentResolver resolver = getActivity().getContentResolver();
             if (preference == mSelinux) {
             if (objValue.toString().equals("true")) {
-                Log.d(TAG, "setenforce 1");
-                CMDProcessor.runShellCommand("echo 1 > /sys/fs/selinux/enforce");
+                CMDProcessor.runSuCommand("setenforce 1");
+                setSelinuxEnabled("true");
                 mSelinux.setSummary(R.string.selinux_enforcing_title);
             } else if (objValue.toString().equals("false")) {
-                Log.d(TAG, "setenforce 0");
-                CMDProcessor.runShellCommand("echo 0 > /sys/fs/selinux/enforce");
+                CMDProcessor.runSuCommand("setenforce 0");
+                setSelinuxEnabled("false");
                 mSelinux.setSummary(R.string.selinux_permissive_title);
             }
             return true;
