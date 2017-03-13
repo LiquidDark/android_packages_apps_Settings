@@ -41,6 +41,7 @@ import android.provider.Settings;
 import com.android.settings.util.Helpers;
 import dalvik.system.VMRuntime;
 import android.preference.PreferenceActivity;
+import android.util.Log;
 import android.view.View;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
