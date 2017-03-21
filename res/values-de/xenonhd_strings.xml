@@ -13,10 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- About phone screen, Liquid version -->
-  <string name="xenonhd_version">Liquid Version</string>
-  <string name="xenonhd_version_default">Unbekannt</string>
-  <string name="xenonhd_maintainer">Entwickler</string>
-  <string name="xenonhd_maintainer_default">Unbekannt</string>
+  <string name="liquid_version">Liquid Version</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Änderungsprotokoll</string>
   <string name="changelog_xenonhd_error">Änderungsprotokoll konnte nicht geladen werden</string>
@@ -192,14 +189,6 @@
   <!-- Hide Statusbar on Lockscreen -->
   <string name="lockscreen_hide_status_bar_title">Statusleiste verstecken</string>
   <string name="lockscreen_hide_status_bar_summary">Berühren Sie die Statusleiste, um die Sichtbarkeit zu aktivieren</string>
-  <!-- Wakelock blocker -->
-  <string name="wakelock_blocker_title">Wakelocks blockieren</string>
-  <string name="wakelock_blocker_summary">Blockiere System-Wakelocks</string>
-  <string name="wakelock_blocker_save">Speichern</string>
-  <string name="wakelock_list_header">Verfügbare Wakelocks</string>
-  <string name="wakelock_blocker_reload">Aktualisieren</string>
-  <string name="wakelock_blocker_warning_title">Fortfahren auf eigene Gefahr</string>
-  <string name="wakelock_blocker_warning">Blockieren von Wakelocks kann Instabilität, Abstürze oder Datenverlust verursachen</string>
   <!-- Force authorize substratum packages -->
   <string name="force_authorize_substratum_packages_title">Erzwinge Autorisierung jeder Themen App</string>
   <string name="force_authorize_substratum_packages_summary">Erlaube Theme Apps von unbekannten Quellen</string>
