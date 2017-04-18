@@ -366,5 +366,8 @@
     <string name="navigation_bar_size_40_dp">40 dp</string>
     <string name="navigation_bar_size_42_dp">42 dp</string>
     <string name="navigation_bar_size_0_dp">0 dp (off)</string>
+    
+    <!-- Magisk header name -->
+    <string name="magisk_title">Magisk</string>
 
 </resources>
