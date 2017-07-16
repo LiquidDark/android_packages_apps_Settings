@@ -20,6 +20,7 @@
   <string name="changelog_xenonhd_error">Kan inte ladda ändringslogg</string>
   <string name="changelog_xenonhd_summary">Se ändringar i aktuell version</string>
   <!-- Density category -->
+  <string name="density_category">Densitetsinställningar</string>
   <!-- Dev Options Enabled by Default -->
   <string name="show_dev_already_enabled">Behövs inte, utvecklarinställningarna är aktiverade som standard</string>
   <!-- Phone info shortcut -->

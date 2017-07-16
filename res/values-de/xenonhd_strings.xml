@@ -287,4 +287,5 @@
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Info Ladezustand</string>
   <string name="lockscreen_battery_info_summary">Zeige ermittelte Ladespannung/-Strom und Batterietemperatur während des Ladens auf dem Sperrbildschirm</string>
+
 </resources>
